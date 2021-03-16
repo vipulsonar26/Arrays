@@ -1,0 +1,18 @@
+Given a binary array, find the maximum number of consecutive 1s in this array.
+
+Example 1:
+Input: [1,1,0,1,1,1]
+Output: 3
+Explanation: The first two digits or the last three digits are consecutive 1s.
+    The maximum number of consecutive 1s is 3.
+Note:
+
+The input array will only contain 0 and 1.
+The length of input array is a positive integer and will not exceed 10,000
+
+
+Solution:
+
+1. Iterate array from the begining
+2. keep count of 1s in a variable. 
+3. If we encounter 0 than we assign the previous variable count value to a another variable say count if previous variable value is greater than count.
